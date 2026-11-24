@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: split-long-report-function
+expected_outcome: |
+  report.py is split into several well-named functions; the command-line interface is unchanged; output for every sample is byte-identical before and after (verified, e.g. with a golden master).
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: audit-requirements-file
+expected_outcome: |
+  The answer reports the ecosystem, notes which requirements are unpinned, lists known-vulnerable or outdated packages with fixed versions when an audit tool or registry data is available (or says which tool is missing and how to install it), and proposes an upgrade order.
+context:
+  scaffold_script: place-files.sh

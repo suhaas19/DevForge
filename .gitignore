@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.dependency-audit/
+.golden/
+*.min
+.venv/
+node_modules/
+.DS_Store
+*-workspace/

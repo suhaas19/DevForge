@@ -1,0 +1,4 @@
+region,amount,status
+ east ,-3,paid
+west,100.25,paid
+East,7,paid

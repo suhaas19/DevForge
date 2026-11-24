@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: handoff-to-another-agent
+expected_outcome: |
+  HANDOFF.md captures goal, done/remaining items, the decision and dead end from notes.txt, and ordered next steps, in a compact form (well under 150 lines).
+context:
+  scaffold_script: place-files.sh

@@ -1,0 +1,31 @@
+{
+  "name": "devforge",
+  "description": "DevForge: portable developer skills for Claude Code, Antigravity, Codex, Cursor, Gemini CLI and other Agent Skills compatible agents.",
+  "owner": {
+    "name": "Suhaas Gupta"
+  },
+  "plugins": [
+    {
+      "name": "devforge",
+      "displayName": "DevForge",
+      "description": "Research-backed developer skills for coding agents: codebase onboarding, code review, secure code review, test generation, bug reproduction, safe refactoring, performance profiling, dependency audits, commits and PRs, LLM app evals, prompt-injection defense, session handoffs and skill authoring. Each skill ships with scripts that do the deterministic work.",
+      "source": "./",
+      "author": {
+        "name": "Suhaas Gupta"
+      },
+      "category": "development",
+      "tags": [
+        "skills",
+        "code-review",
+        "security",
+        "testing",
+        "debugging",
+        "refactoring",
+        "performance",
+        "dependencies",
+        "evals",
+        "developer-tools"
+      ]
+    }
+  ]
+}

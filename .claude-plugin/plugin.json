@@ -1,0 +1,23 @@
+{
+  "name": "devforge",
+  "version": "1.0.0",
+  "description": "Research-backed developer skills for coding agents: codebase onboarding, code review, secure code review, test generation, bug reproduction, safe refactoring, performance profiling, dependency audits, commits and PRs, LLM app evals, prompt-injection defense, session handoffs and skill authoring. Each skill ships with scripts that do the deterministic work.",
+  "author": {
+    "name": "Suhaas Gupta"
+  },
+  "homepage": "https://github.com/suhaas19/devforge",
+  "repository": "https://github.com/suhaas19/devforge",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "code-review",
+    "security",
+    "testing",
+    "debugging",
+    "refactoring",
+    "performance",
+    "dependencies",
+    "evals",
+    "developer-tools"
+  ]
+}

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: locate-password-reset
+expected_outcome: |
+  Answer points to shop/auth/routes.py (POST /auth/reset) calling start_password_reset in shop/auth/reset.py, which creates a token and sends mail via shop/mail.py. No files modified.
+context:
+  scaffold_script: place-files.sh

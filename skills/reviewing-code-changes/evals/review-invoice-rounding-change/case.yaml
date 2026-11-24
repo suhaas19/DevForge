@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: review-invoice-rounding-change
+expected_outcome: |
+  Review flags that money is handled as float and rounded before tax is applied, giving wrong totals, with file:line and a concrete failing example; recommends Decimal and rounding once after tax; gives a verdict of request changes.
+context:
+  scaffold_script: place-files.sh

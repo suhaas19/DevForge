@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: review-deleted-test
+expected_outcome: |
+  Review calls out that a test for negative quantities was deleted and an assertion was loosened, asks for justification or restoration, and does not approve as-is.
+context:
+  scaffold_script: place-files.sh

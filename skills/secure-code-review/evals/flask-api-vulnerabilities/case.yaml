@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: flask-api-vulnerabilities
+expected_outcome: |
+  Report includes a SQL injection finding with a traced flow from request.args to cursor.execute, the pickle.loads of a cookie as deserialization of untrusted data, and the hard-coded secret key, each with severity and fix, without printing the full secret.
+context:
+  scaffold_script: place-files.sh

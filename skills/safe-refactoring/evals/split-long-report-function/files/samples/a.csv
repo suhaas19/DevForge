@@ -1,0 +1,4 @@
+region,amount,status
+north,10.5,paid
+south,4,paid
+north,2,cancelled

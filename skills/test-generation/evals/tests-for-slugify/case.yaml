@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: tests-for-slugify
+expected_outcome: |
+  tests/test_textutils.py exists, follows the existing pytest style, covers empty input, punctuation collapsing, leading/trailing separators and unicode, and all tests pass.
+context:
+  scaffold_script: place-files.sh

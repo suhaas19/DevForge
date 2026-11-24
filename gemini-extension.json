@@ -1,0 +1,6 @@
+{
+  "name": "devforge",
+  "version": "1.0.0",
+  "description": "13 research-backed developer skills with bundled scripts: review, security, testing, debugging, refactoring, perf, deps, evals.",
+  "contextFileName": "GEMINI.md"
+}

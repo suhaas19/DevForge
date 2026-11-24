@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: build-eval-set-for-support-bot
+expected_outcome: |
+  An eval case file is created with cases derived from the failure modes in the transcripts (wrong refund window, invented order IDs, answering in English to Spanish questions), mostly deterministic checks, and the eval is run against bot.answer with results reported as a pass rate with a confidence interval.
+context:
+  scaffold_script: place-files.sh

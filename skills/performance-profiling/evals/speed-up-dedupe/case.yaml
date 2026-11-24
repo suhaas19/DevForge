@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: speed-up-dedupe
+expected_outcome: |
+  The quadratic list-membership check is replaced with a set while preserving order; output is identical; the speedup is measured with repeated runs and reported with its uncertainty.
+context:
+  scaffold_script: place-files.sh

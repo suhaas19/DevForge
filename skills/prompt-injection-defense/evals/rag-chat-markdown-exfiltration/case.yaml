@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: rag-chat-markdown-exfiltration
+expected_outcome: |
+  The answer flags that uploaded PDFs are untrusted, that rendering model output as markdown with remote images/links enables data exfiltration via URLs, and recommends disabling remote images or allowlisting domains, plus tenant isolation of retrieved documents.
+context:
+  scaffold_script: place-files.sh

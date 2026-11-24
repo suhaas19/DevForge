@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: fix-undertriggering-skill
+expected_outcome: |
+  The description is rewritten in third person with what the skill does, when to use it, and the keywords users type (terraform, plan, apply, state, modules, .tf); the skill passes validation.
+context:
+  scaffold_script: place-files.sh

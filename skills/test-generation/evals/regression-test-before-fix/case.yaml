@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: regression-test-before-fix
+expected_outcome: |
+  A new test asserts is_valid_date(2024, 2, 29) is True and currently fails; dates.py is unchanged; the answer explains the test fails because of the leap-year bug.
+context:
+  scaffold_script: place-files.sh

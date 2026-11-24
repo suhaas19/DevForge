@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: pr-description-for-branch
+expected_outcome: |
+  PR.md has Why, What changed, How it was tested (including the 50k-row manual test and that Windows was not tested), and Risk/rollout sections, consistent with the branch's commits.
+context:
+  scaffold_script: place-files.sh

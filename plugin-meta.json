@@ -1,0 +1,31 @@
+{
+  "name": "devforge",
+  "display_name": "DevForge",
+  "owner": "suhaas19",
+  "version": "1.0.0",
+  "author": {
+    "name": "Suhaas Gupta"
+  },
+  "license": "MIT",
+  "description": "Research-backed developer skills for coding agents: codebase onboarding, code review, secure code review, test generation, bug reproduction, safe refactoring, performance profiling, dependency audits, commits and PRs, LLM app evals, prompt-injection defense, session handoffs and skill authoring. Each skill ships with scripts that do the deterministic work.",
+  "short_description": "13 research-backed developer skills with bundled scripts: review, security, testing, debugging, refactoring, perf, deps, evals.",
+  "marketplace_description": "DevForge: portable developer skills for Claude Code, Antigravity, Codex, Cursor, Gemini CLI and other Agent Skills compatible agents.",
+  "keywords": [
+    "skills",
+    "code-review",
+    "security",
+    "testing",
+    "debugging",
+    "refactoring",
+    "performance",
+    "dependencies",
+    "evals",
+    "developer-tools"
+  ],
+  "logo": "assets/logo.png",
+  "suggested_prompts": [
+    "Map this repository and tell me where to start",
+    "Review my branch before I open a PR",
+    "Do a security review of the changes on this branch"
+  ]
+}

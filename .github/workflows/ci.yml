@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install test tools
+        run: python -m pip install pytest
+      - name: Lint skills (spec, security, smells)
+        run: python skills/skill-authoring/scripts/validate_skill.py skills --strict
+      - name: Manifests in sync with plugin-meta.json
+        run: python scripts/sync_manifests.py --check
+      - name: Tests
+        env:
+          DEVFORGE_OFFLINE: "1"
+        run: python -m pytest -q
+      - name: ShellCheck
+        if: runner.os == 'Linux'
+        run: shellcheck install.sh skills/*/scripts/*.sh

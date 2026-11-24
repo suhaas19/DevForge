@@ -1,0 +1,32 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "devforge",
+  "displayName": "DevForge",
+  "version": "1.0.0",
+  "description": "13 research-backed developer skills with bundled scripts: review, security, testing, debugging, refactoring, perf, deps, evals.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Map this repository and tell me where to start",
+    "Review my branch before I open a PR",
+    "Do a security review of the changes on this branch"
+  ],
+  "author": {
+    "name": "Suhaas Gupta",
+    "url": "https://github.com/suhaas19"
+  },
+  "homepage": "https://github.com/suhaas19/devforge",
+  "repository": "https://github.com/suhaas19/devforge",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "code-review",
+    "security",
+    "testing",
+    "debugging",
+    "refactoring",
+    "performance",
+    "dependencies",
+    "evals",
+    "developer-tools"
+  ]
+}

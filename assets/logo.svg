@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="DevForge logo">
+  <rect width="512" height="512" rx="96" fill="#171B26"/>
+  <polygon points="96,250 416,250 380,300 300,300 300,360 350,400 162,400 212,360 212,300 132,300" fill="#F59E0B"/>
+  <rect x="140" y="400" width="232" height="24" fill="#F59E0B"/>
+  <polyline points="200,110 150,165 200,220" fill="none" stroke="#E5E7EB" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="312,110 362,165 312,220" fill="none" stroke="#E5E7EB" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="276" y1="100" x2="236" y2="230" stroke="#F59E0B" stroke-width="20" stroke-linecap="round"/>
+</svg>

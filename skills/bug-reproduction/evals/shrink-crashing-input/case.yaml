@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: shrink-crashing-input
+expected_outcome: |
+  minimal.json is a tiny input (a few lines) that still makes parse_orders.py fail with the same KeyError; the answer gives the exact reproduction command.
+context:
+  scaffold_script: place-files.sh

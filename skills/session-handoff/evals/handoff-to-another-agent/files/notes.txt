@@ -1,0 +1,5 @@
+migrating user table from int ids to uuids
+done: added uuid column, backfill script scripts/backfill_uuid.py (ran on staging, 1.2M rows, 14 min)
+decided: dual-write both ids for 2 weeks instead of big-bang switch (rollback safety)
+failed: tried doing backfill in one transaction -> lock timeout on staging
+todo: switch reads to uuid behind flag USE_UUID_READS, then drop int FKs

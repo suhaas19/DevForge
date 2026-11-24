@@ -1,0 +1,42 @@
+{
+  "name": "devforge",
+  "version": "1.0.0",
+  "description": "Research-backed developer skills for coding agents: codebase onboarding, code review, secure code review, test generation, bug reproduction, safe refactoring, performance profiling, dependency audits, commits and PRs, LLM app evals, prompt-injection defense, session handoffs and skill authoring. Each skill ships with scripts that do the deterministic work.",
+  "author": {
+    "name": "Suhaas Gupta",
+    "url": "https://github.com/suhaas19"
+  },
+  "homepage": "https://github.com/suhaas19/devforge",
+  "repository": "https://github.com/suhaas19/devforge",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "code-review",
+    "security",
+    "testing",
+    "debugging",
+    "refactoring",
+    "performance",
+    "dependencies",
+    "evals",
+    "developer-tools"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DevForge",
+    "shortDescription": "13 research-backed developer skills with bundled scripts: review, security, testing, debugging, refactoring, perf, deps, evals.",
+    "longDescription": "Research-backed developer skills for coding agents: codebase onboarding, code review, secure code review, test generation, bug reproduction, safe refactoring, performance profiling, dependency audits, commits and PRs, LLM app evals, prompt-injection defense, session handoffs and skill authoring. Each skill ships with scripts that do the deterministic work.",
+    "developerName": "Suhaas Gupta",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Map this repository and tell me where to start",
+      "Review my branch before I open a PR"
+    ],
+    "websiteURL": "https://github.com/suhaas19/devforge"
+  }
+}

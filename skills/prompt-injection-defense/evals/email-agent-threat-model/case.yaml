@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: email-agent-threat-model
+expected_outcome: |
+  The review identifies that the agent combines untrusted input (emails, fetched pages), private data (inbox), and exfiltration channels (send_email, fetch_url), gives a concrete attack scenario, and recommends structural mitigations (recipient allowlist or confirmation for send_email, restricting fetch_url, plan-then-execute or dual-LLM separation) rather than relying on prompt wording.
+context:
+  scaffold_script: place-files.sh

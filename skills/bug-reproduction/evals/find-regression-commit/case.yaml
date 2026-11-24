@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: find-regression-commit
+expected_outcome: |
+  The answer identifies the commit 'tidy formatting helpers' as the first bad commit (found with git bisect between v1.0 and HEAD) and explains the change that broke the output.
+context:
+  scaffold_script: place-files.sh

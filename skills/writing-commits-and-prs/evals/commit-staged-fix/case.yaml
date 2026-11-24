@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: commit-staged-fix
+expected_outcome: |
+  A commit is created whose message follows Conventional Commits (fix type, imperative lower-case subject, blank line, body) and explains the why: timeouts during the processor's nightly failover causing failed checkouts.
+context:
+  scaffold_script: place-files.sh

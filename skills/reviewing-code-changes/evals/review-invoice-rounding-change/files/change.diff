@@ -1,0 +1,16 @@
+--- a/billing/invoice.py
++++ b/billing/invoice.py
+@@ -1,7 +1,9 @@
+-from decimal import Decimal, ROUND_HALF_UP
+-TAX_RATE = Decimal("0.0825")
++TAX_RATE = 0.0825
+
+-def invoice_total(lines):
+-    subtotal = sum(Decimal(str(p)) * q for p, q in lines)
+-    return (subtotal * (1 + TAX_RATE)).quantize(Decimal("0.01"), ROUND_HALF_UP)
++def line_total(price, qty):
++    return round(price * qty, 2)
++
++def invoice_total(lines):
++    subtotal = sum(line_total(p, q) for p, q in lines)
++    return round(subtotal, 2) + round(subtotal * TAX_RATE, 2)

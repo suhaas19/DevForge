@@ -1,0 +1,6 @@
+- goal: move sessions from postgres to redis so logout invalidates on all 6 app servers within 1s
+- decided redis over JWT revocation list (revocation list = extra DB read per request)
+- tried upgrading redis-py to 5.x to fix ConnectionError timeouts -> no change
+- suspect SOCKET_TIMEOUT = 1 in config/redis.py is too low
+- tests: pytest tests/session -> 2 failing (test_logout_all, test_expiry)
+- next: raise timeout to 5, rerun tests, then wire logout endpoint
